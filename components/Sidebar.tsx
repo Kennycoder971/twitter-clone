@@ -14,10 +14,11 @@ import SidebarRow from "./SidebarRow";
 
 function Sidebar() {
   return (
-    <nav className="flex flex-col">
+    <nav className="col-span-2 flex flex-col items-center px-4 md:items-start">
       <Image
         width={30}
         height={30}
+        className="m-3"
         src="https://links.papareact.com/drq"
         alt="twitter icon"
       />
