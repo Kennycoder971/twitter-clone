@@ -1,3 +1,4 @@
+import Feed from "@/components/Feed";
 import Sidebar from "@/components/Sidebar";
 import Head from "next/head";
 
@@ -9,7 +10,8 @@ export default function Home() {
       </Head>
       <main>
         <Sidebar />
-        <h1 className="text-3xl font-bold underline">Hello</h1>
+
+        <Feed />
       </main>
     </>
   );
